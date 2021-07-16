@@ -117,4 +117,12 @@
 		top: 36px;
 		background-color: transparent;
 	}
+
+	.login > span {
+		display: none;
+	}
+
+	.login {
+		width: 26px;
+	}
 }

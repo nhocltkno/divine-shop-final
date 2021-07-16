@@ -60,7 +60,7 @@ import img_24 from "../../assets/hình ảnh banner/3. banner mua nhiều trong 
 
 function Middle() {
 	return (
-		<div>
+		<div className="middle">
 			<div className="khuyenMai">
 				<img src={khuyenmai1} alt="" />
 				<img src={khuyenmai2} alt="" />

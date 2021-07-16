@@ -178,6 +178,13 @@
 		color: #0068ab;
 	}
 
+	.intro,
+	.support,
+	.setting,
+	.cart {
+		display: none;
+	}
+
 	.dropdown:hover,
 	.intro:hover,
 	.support:hover,
@@ -343,5 +350,9 @@
 		color: #0068ab !important;
 		z-index: 5;
 		display: inline-block;
+	}
+
+	.cart {
+		width: 50px;
 	}
 }
