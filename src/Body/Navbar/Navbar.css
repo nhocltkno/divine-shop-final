@@ -154,14 +154,15 @@
 	}
 	.dropdown {
 		background-color: transparent;
-		position: fixed;
+		position: absolute;
 		left: 4px;
-		top: 40px;
+		top: -34px;
 	}
 
 	.nav {
 		left: 0px;
 		top: 0px;
+		width: 414px;
 	}
 	.dropdown,
 	.intro,
@@ -175,6 +176,14 @@
 		border-radius: 0px;
 		font-weight: 700;
 		color: #0068ab;
+	}
+
+	.dropdown:hover,
+	.intro:hover,
+	.support:hover,
+	.cart:hover,
+	.setting:hover {
+		background-color: transparent;
 	}
 
 	.dropdown > .logo {
