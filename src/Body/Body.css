@@ -1,0 +1,19 @@
+.body {
+	position: absolute;
+	background: linear-gradient(
+		180.42deg,
+		rgba(174, 201, 219, 0) -75.26%,
+		#1c557a 34.05%
+	);
+	width: 1920px;
+	height: 3000px;
+	top: 96px;
+}
+
+@media only screen and (max-width: 414px) {
+	.body {
+		width: 414px;
+		top: 71px;
+		height: 1560px;
+	}
+}

@@ -1,0 +1,204 @@
+.bigPanel {
+	width: 1050px;
+	height: 580px;
+	border-radius: 50px;
+	margin-left: 80px;
+}
+
+.carousel {
+	position: absolute;
+	top: 120px;
+	width: 1200px;
+	height: 580px;
+	left: 342px;
+}
+
+.logo2 {
+	display: none;
+}
+
+.indicator {
+	margin-left: 8px;
+}
+
+.indicator_1_2 {
+	margin-left: 8px !important;
+	content: url("../../assets/icon_website/indicator_2.svg") !important;
+	border-radius: 0% !important;
+}
+
+.price {
+	position: absolute;
+	top: 500px;
+	left: 968px;
+	width: 132px;
+	height: 46px;
+	background: rgba(38, 38, 38, 0.5);
+	border-radius: 5px;
+}
+
+.discount {
+	color: #1bdd5d;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.left {
+	position: absolute;
+	border-radius: 5px;
+	width: 47px;
+	height: 47px;
+	background: #4e4e4e;
+}
+
+.right {
+	position: absolute;
+	left: 50px;
+}
+
+.right > h4 {
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 2px;
+}
+
+.right > p {
+	margin: 0px;
+	margin-top: 2px;
+	font-size: 12px;
+	color: #c2c2c2;
+	padding-left: 24px;
+	text-decoration-line: line-through;
+}
+
+#game2 {
+	padding-left: 20px;
+}
+
+#the-witcher {
+	margin-left: 8px;
+}
+
+.ass-price {
+	position: absolute;
+	top: 520px;
+	left: 1000px;
+	width: 88px;
+	height: 35px;
+	background: rgba(0, 104, 171, 0.5);
+	border-radius: 5px;
+}
+
+.ass-price > h4 {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 6px;
+	margin-left: 2px;
+}
+
+@media only screen and (max-width: 414px) {
+	.bigPanel {
+		width: 385px;
+		height: 214px;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+
+	.carousel {
+		position: absolute;
+		top: 14px;
+		width: 385px;
+		height: 214px;
+		left: 10px;
+	}
+
+	.indicator {
+		display: none;
+	}
+
+	.indicator_1_2 {
+		display: none !important;
+	}
+
+	.price {
+		position: absolute;
+		top: 177px;
+		left: 300px;
+		width: 80px;
+		height: 29px;
+		background: rgba(38, 38, 38, 0.5);
+		border-radius: 5px;
+	}
+
+	.discount {
+		color: #1bdd5d;
+		font-size: 11px;
+		text-align: center;
+		margin: 0px;
+		width: 29px;
+		height: 29px;
+		margin-top: 6px;
+	}
+
+	.left {
+		position: absolute;
+		border-radius: 5px;
+		width: 29px;
+		height: 29px;
+		background: #4e4e4e;
+	}
+
+	.right {
+		position: absolute;
+		left: 20px;
+	}
+
+	.right > h4 {
+		margin: 0px;
+		font-size: 11px;
+		font-weight: 700;
+		color: #ffffff;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+
+	.right > p {
+		margin: 0px;
+		font-size: 10px;
+		color: #c2c2c2;
+		padding-left: 12px;
+		text-decoration-line: line-through;
+	}
+
+	#game2 {
+		padding-left: 10px;
+	}
+
+	#the-witcher {
+		margin-left: 12px;
+	}
+
+	.ass-price {
+		position: absolute;
+		top: 180px;
+		left: 300px;
+		width: 80px;
+		height: 28px;
+		background: rgba(0, 104, 171, 0.5);
+		border-radius: 5px;
+	}
+
+	.ass-price > h4 {
+		margin: 0px;
+		font-size: 12px;
+		font-weight: 700;
+		color: #ffffff;
+		margin-top: 6px;
+		margin-left: 8px;
+	}
+}

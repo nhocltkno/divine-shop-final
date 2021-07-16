@@ -1,0 +1,340 @@
+.khuyenMai {
+	position: absolute;
+	top: 758px;
+	left: 424px;
+}
+
+.khuyenMai > img {
+	width: 340px;
+	height: 203px;
+}
+
+img + img {
+	margin-left: 16px;
+}
+
+.advertise_left {
+	position: absolute;
+	top: 680px;
+	width: 345px;
+	height: 800px;
+}
+
+.advertise_right {
+	position: absolute;
+	top: 640px;
+	left: 1560px;
+	width: 345px;
+	height: 800px;
+}
+
+.btn_khuyenmai {
+	position: absolute;
+	width: 254px;
+	height: 40px;
+	left: 424px;
+	top: 1000px;
+
+	background: #ffffff;
+	border: 1px solid #0068ab;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+
+.btn_khuyenmai > .text {
+	font-weight: 700;
+	font-size: 18px;
+	color: #0068ab;
+	margin-left: 80px;
+	margin-top: 8px;
+}
+
+.btn_khuyenmai:hover {
+	background-color: #0068ab;
+}
+
+.btn_khuyenmai:hover > .text {
+	color: #ffffff;
+}
+
+.indicator_2 {
+	margin-left: 8px !important;
+	content: url("../../assets/icon_website/small_indicator_2.svg") !important;
+	border-radius: 0% !important;
+}
+
+.div-carousel-1 {
+	position: absolute;
+	width: 1200px;
+	left: 362px;
+	top: 1060px;
+}
+
+.carousel-1 {
+	height: 260px;
+}
+
+#first {
+	margin-left: 60px;
+}
+
+.item-img {
+	width: 254px;
+	height: 118px;
+}
+
+.item-km {
+	margin-left: 20px;
+}
+
+.item-list {
+	display: flex;
+}
+
+.contain-price {
+	position: absolute;
+	width: 254px;
+	height: 32px;
+	background: #438bb9;
+	top: 118px;
+}
+
+.discount-price {
+	position: absolute;
+	width: 108px;
+	height: 28px;
+	top: 2px;
+	left: 140px;
+
+	background: #525252;
+}
+
+.discount-1 {
+	width: 40px;
+	height: 28px;
+	background-color: #ffffff;
+	margin: 0px;
+	color: #1bdd5d;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.right-price {
+	position: absolute;
+	left: 50px;
+}
+
+.right-price > p {
+	margin: 0px;
+	margin-left: 12px;
+	font-size: 10px;
+	text-decoration-line: line-through;
+	color: #c2c2c2;
+}
+
+.right-price > h4 {
+	margin: 0px;
+	margin-left: 4px;
+	font-size: 12px;
+	color: #c3e8ff;
+	font-weight: 500;
+}
+
+.left-price {
+	position: absolute;
+	width: 40px;
+}
+
+.btn_muanhieu {
+	position: absolute;
+	width: 254px;
+	height: 40px;
+	left: 424px;
+	top: 1350px;
+
+	background: #ffffff;
+	border: 1px solid #0068ab;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+
+.btn_muanhieu > .text {
+	font-weight: 700;
+	font-size: 18px;
+	color: #0068ab;
+	margin-left: 32px;
+	margin-top: 6px;
+}
+
+.btn_muanhieu:hover {
+	background-color: #0068ab;
+}
+
+.btn_muanhieu:hover > .text {
+	color: #ffffff;
+}
+
+.div-carousel-2 {
+	position: absolute;
+	width: 1200px;
+	left: 362px;
+	top: 1420px;
+}
+
+@media only screen and (max-width: 414px) {
+	.advertise_left,
+	.advertise_right {
+		display: none;
+	}
+
+	.khuyenMai {
+		position: absolute;
+		top: 232px;
+		left: 12px;
+	}
+
+	.khuyenMai > img {
+		width: 190px;
+		height: 111px;
+	}
+	.khuyenMai > .hide_km {
+		display: none;
+	}
+
+	.btn_khuyenmai {
+		position: absolute;
+		width: 91px;
+		height: 25px;
+		left: 16px;
+		top: 353px;
+
+		background: #ffffff;
+		border: 1px solid #0068ab;
+		box-sizing: border-box;
+		border-radius: 50px;
+	}
+
+	.btn_khuyenmai > .text {
+		font-weight: 700;
+		font-size: 12px;
+		color: #0068ab;
+		margin-left: 10px;
+		margin-top: 2px;
+	}
+
+	.indicator_2 {
+		display: none !important;
+	}
+
+	.div-carousel-1 {
+		position: absolute;
+		width: 400px;
+		left: 16px;
+		top: 390px;
+	}
+
+	.carousel-1 {
+		height: 150px;
+		width: 400px;
+	}
+
+	#first {
+		margin-left: 0px;
+	}
+
+	.item-img {
+		width: 185px;
+		height: 87px;
+	}
+
+	.item-km {
+		margin-left: 16px;
+	}
+
+	.item-list {
+		display: flex;
+	}
+
+	.contain-price {
+		position: absolute;
+		width: 185px;
+		height: 30px;
+		background: #438bb9;
+		top: 86px;
+	}
+
+	.discount-price {
+		position: absolute;
+		width: 108px;
+		height: 28px;
+		top: 2px;
+		left: 78px;
+
+		background: #525252;
+	}
+
+	.discount-1 {
+		width: 33px;
+		height: 26px;
+		background-color: #ffffff;
+		margin: 0px;
+		color: #1bdd5d;
+		font-weight: 500;
+		font-size: 13px;
+		padding-top: 2px;
+	}
+
+	.right-price {
+		position: absolute;
+		left: 35px;
+	}
+
+	.right-price > p {
+		margin: 0px;
+		margin-left: 24px;
+		font-size: 10px;
+		text-decoration-line: line-through;
+		color: #c2c2c2;
+	}
+
+	.right-price > h4 {
+		margin: 0px;
+		margin-left: 18px;
+		font-size: 12px;
+		color: #c3e8ff;
+		font-weight: 500;
+	}
+
+	.left-price {
+		position: absolute;
+		width: 40px;
+	}
+
+	.btn_muanhieu {
+		position: absolute;
+		width: 126px;
+		height: 25px;
+		left: 16px;
+		top: 528px;
+
+		background: #ffffff;
+		border: 1px solid #0068ab;
+		box-sizing: border-box;
+		border-radius: 50px;
+	}
+
+	.btn_muanhieu > .text {
+		font-weight: 700;
+		font-size: 11px;
+		color: #0068ab;
+		margin-left: 3px;
+		margin-top: 4px;
+	}
+
+	.div-carousel-2 {
+		position: absolute;
+		width: 400px;
+		left: 16px;
+		top: 568px;
+	}
+}

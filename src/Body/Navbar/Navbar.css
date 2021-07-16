@@ -1,0 +1,338 @@
+.nav {
+	position: absolute;
+	left: 424px;
+	width: 1040px;
+	top: 33px;
+	display: flex;
+}
+
+.dropdown,
+.intro,
+.support,
+.setting,
+.cart {
+	background-color: white;
+	width: 180px;
+	height: 26px;
+	margin-left: 28px;
+	border-radius: 24px;
+	font-weight: 700;
+	color: #0068ab;
+}
+
+.dropdown {
+	padding: 4px 16px 2px 16px;
+	margin-left: 0px;
+}
+
+.intro {
+	padding: 4px 20px 2px 40px;
+}
+
+.support {
+	padding: 4px 8px 2px 52px;
+}
+
+.setting {
+	padding: 4px 8px 2px 36px;
+}
+
+.cart {
+	padding: 4px 8px 2px 36px;
+}
+
+.dropdown > .logo {
+	width: 18px;
+	height: 18px;
+	padding-top: 2px;
+}
+
+.logo {
+	width: 26px;
+	height: 26px;
+	margin-right: 8px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+.text {
+	position: absolute;
+	height: 17px;
+	padding-bottom: 10px;
+	display: inline-block;
+	margin-top: 0px;
+	font-size: 16px;
+}
+
+.dropdown_menu {
+	display: none;
+}
+
+.dropdown:hover,
+.intro:hover,
+.support:hover,
+.cart:hover,
+.setting:hover {
+	background-color: #0068ab;
+}
+
+.intro:hover > .logo {
+	content: url("../../assets/icon_website/intro_2.svg");
+}
+
+.intro:hover > .text {
+	color: #ffffff;
+}
+
+.support:hover > .logo {
+	content: url("../../assets/icon_website/support_2.svg");
+}
+
+.support:hover > .text {
+	color: #ffffff;
+}
+
+.cart:hover > .logo {
+	content: url("../../assets/icon_website/cart_2.svg");
+}
+
+.cart:hover > .text {
+	color: #ffffff;
+}
+
+.setting:hover > .logo {
+	content: url("../../assets/icon_website/settings_2.svg");
+}
+
+.setting:hover > .text {
+	color: #ffffff;
+}
+
+.menu {
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+}
+
+.item_menu {
+	background-color: #0068ab;
+	width: 180px;
+	height: 26px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 4px 16px 8px 16px;
+}
+
+.item_menu:last-child {
+	border-radius: 0px 0px 24px 24px;
+	padding-bottom: 16px;
+}
+
+.menu:hover > .dropdown_menu {
+	display: block;
+}
+
+.menu:hover > .dropdown {
+	border-radius: 24px 24px 0px 0px;
+}
+
+.menu:hover > .dropdown {
+	background-color: #0068ab;
+}
+
+.menu:hover > .dropdown > .logo {
+	content: url("../../assets/icon_website/menu_2.svg");
+}
+
+.menu:hover > .dropdown > .text {
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 414px) {
+	.dropdown > .text {
+		display: none;
+	}
+	.dropdown {
+		background-color: transparent;
+		position: fixed;
+		left: 4px;
+		top: 40px;
+	}
+
+	.nav {
+		left: 0px;
+		top: 0px;
+	}
+	.dropdown,
+	.intro,
+	.support,
+	.setting,
+	.cart {
+		background-color: transparent;
+		width: 180px;
+		height: 26px;
+		margin-left: 0px;
+		border-radius: 0px;
+		font-weight: 700;
+		color: #0068ab;
+	}
+
+	.dropdown > .logo {
+		content: url("../../assets/icon_website/menu_2.svg");
+		height: 20px;
+		width: 20px;
+	}
+
+	.dropdown_menu {
+		background-color: #ffffff;
+		width: 229px;
+		height: 1178px;
+	}
+
+	.item_menu {
+		display: none;
+	}
+
+	.menu:hover > .dropdown {
+		border-radius: 0px;
+		background-color: transparent;
+	}
+
+	.menu {
+		position: fixed;
+		top: 71px;
+	}
+
+	.menu:hover > .dropdown > .text {
+		display: inline;
+		position: fixed;
+		top: 100px;
+		color: #0068ab !important;
+	}
+
+	.logo2 {
+		display: none;
+	}
+
+	.menu:hover .logo2 {
+		display: inline-block;
+		position: fixed;
+		top: 100px;
+		left: 6px;
+		content: url("../../assets/icon_website/menu_1.svg");
+	}
+
+	.intro,
+	.support,
+	.setting,
+	.cart {
+		display: none;
+	}
+
+	.intro > .text {
+		display: none;
+	}
+
+	.intro > .logo {
+		display: none;
+	}
+
+	.support > .text {
+		display: none;
+	}
+
+	.support > .logo {
+		display: none;
+	}
+
+	.setting > .text {
+		display: none;
+	}
+
+	.setting > .logo {
+		display: none;
+	}
+
+	.cart > .text {
+		display: none;
+	}
+
+	.cart > .logo {
+		display: none;
+	}
+
+	.nav:hover > .intro,
+	.support,
+	.setting,
+	.cart {
+		display: inline-block;
+	}
+
+	.nav:hover > .cart > .text {
+		position: fixed;
+		top: 150px;
+		left: 50px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+	.nav:hover > .cart > .logo {
+		position: fixed;
+		top: 150px;
+		left: 14px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+
+	.nav:hover > .support > .text {
+		position: fixed;
+		top: 200px;
+		left: 50px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+	.nav:hover > .support > .logo {
+		position: fixed;
+		top: 200px;
+		left: 14px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+
+	.nav:hover > .intro > .text {
+		position: fixed;
+		top: 250px;
+		left: 50px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+	.nav:hover > .intro > .logo {
+		position: fixed;
+		top: 250px;
+		left: 14px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+
+	.nav:hover > .setting > .text {
+		position: fixed;
+		top: 300px;
+		left: 50px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+	.nav:hover > .setting > .logo {
+		position: fixed;
+		top: 300px;
+		left: 14px;
+		color: #0068ab !important;
+		z-index: 5;
+		display: inline-block;
+	}
+}

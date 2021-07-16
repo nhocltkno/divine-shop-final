@@ -1,0 +1,118 @@
+.header {
+	background-color: #0068ab;
+	position: absolute;
+	width: 1920px;
+	height: 96px;
+	display: flex;
+	align-items: center;
+}
+
+.logo_title {
+	position: absolute;
+	width: 227px;
+	height: 64px;
+	left: 424px;
+}
+
+.search {
+	position: absolute;
+	border-radius: 50px;
+	height: 40px;
+	width: 500px;
+	left: 666px;
+	padding-left: 12px;
+	font-size: 18px;
+}
+
+.search_icon {
+	position: absolute;
+	width: 40px;
+	left: 1140px;
+	border-radius: 24px;
+	background-color: #0068ab;
+	cursor: pointer;
+}
+
+.login {
+	position: absolute;
+	left: 1300px;
+	background-color: white;
+	width: 144px;
+	height: 34px;
+	border-radius: 24px;
+	padding: 8px;
+	padding-left: 16px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	cursor: pointer;
+}
+
+.login_icon {
+	position: absolute;
+	width: 28px;
+}
+
+.login > span {
+	position: absolute;
+	left: 56px;
+	font-size: 18px;
+	position: absolute;
+	color: #0068ab;
+}
+
+.login:hover {
+	background-color: #00558b;
+}
+
+.login:hover > .login_icon {
+	content: url("../assets/icon_website/login_2.svg");
+}
+
+.login:hover > span {
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 414px) {
+	.logo_title {
+		position: absolute;
+		left: 48px;
+		width: 98px;
+		height: 24px;
+		top: 42px;
+	}
+
+	.header {
+		width: 414px;
+		height: 71px;
+	}
+
+	.search {
+		width: 210px;
+		height: 22px;
+		left: 156px;
+		top: 42px;
+	}
+
+	.search_icon {
+		left: 358px;
+		height: 12px;
+		width: 12px;
+		top: 50px;
+	}
+
+	.login_dn {
+		display: none;
+	}
+
+	.login_icon {
+		content: url("../assets/icon_website/login_2.svg");
+		width: 23px;
+		height: 20px;
+	}
+
+	.login {
+		left: 370px;
+		top: 36px;
+		background-color: transparent;
+	}
+}
