@@ -79,8 +79,12 @@ function Middle() {
 					IndicatorIcon={
 						<img src={indicator} alt="" className="indicator" />
 					}
-					PrevIcon={<img src={prev} alt="icon" />}
-					NextIcon={<img src={next} alt="icon" />}
+					PrevIcon={
+						<img src={prev} alt="icon" className="prev_icon" />
+					}
+					NextIcon={
+						<img src={next} alt="icon" className="next_icon" />
+					}
 					navButtonsProps={{
 						style: {
 							backgroundColor: "transparent",
@@ -94,6 +98,7 @@ function Middle() {
 						style: {
 							marginBottom: "10",
 						},
+						className: "btn_wrapper",
 					}}
 					className="carousel-1"
 					indicatorIconButtonProps={{
@@ -467,8 +472,12 @@ function Middle() {
 					IndicatorIcon={
 						<img src={indicator} alt="" className="indicator" />
 					}
-					PrevIcon={<img src={prev} alt="icon" />}
-					NextIcon={<img src={next} alt="icon" />}
+					PrevIcon={
+						<img src={prev} alt="icon" className="prev_icon" />
+					}
+					NextIcon={
+						<img src={next} alt="icon" className="next_icon" />
+					}
 					navButtonsProps={{
 						style: {
 							margin: "0 0",
@@ -484,6 +493,12 @@ function Middle() {
 						style: {
 							marginTop: 40,
 						},
+					}}
+					navButtonsWrapperProps={{
+						style: {
+							marginBottom: "10",
+						},
+						className: "btn_wrapper",
 					}}
 				>
 					<div className="item-list">

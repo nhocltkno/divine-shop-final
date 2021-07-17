@@ -47,7 +47,12 @@ function Navbar() {
 				<p className="text">Hỗ trợ</p>
 			</div>
 			<div className="intro">
-				<img src={icon_intro} alt="Intro" className="logo" />
+				<img
+					src={icon_intro}
+					alt="Intro"
+					className="logo"
+					id="logo-gt"
+				/>
 				<p className="text">Giới thiệu</p>
 			</div>
 			<div className="setting">

@@ -1,8 +1,8 @@
 .footer {
 	position: absolute;
-	top: 2860px;
-	left: 424px;
-	width: 1100px;
+	top: 92%;
+	left: 22%;
+	width: 55%;
 }
 
 .details-footer {
@@ -13,8 +13,8 @@
 .logo-footer {
 	margin-top: 1%;
 	margin-bottom: 1%;
-	width: 227px;
-	height: 64px;
+	width: 22%;
+	height: 20%;
 }
 
 .content-footer {
@@ -26,24 +26,36 @@
 }
 
 .icon-footer {
-	margin-top: 2%;
-	width: 26px;
+	width: 12%;
 }
 
 .contact-details {
 	margin: 0px;
 	color: #ffffff;
-	margin-top: 5%;
-	margin-left: 3%;
+	padding-top: 5%;
+	margin-left: 5%;
+	font-size: 1.4vh;
 }
 
 .facebook,
-.google,
 .phone {
-	width: 390px;
+	width: auto;
 	display: flex;
+	margin-top: 2%;
+	padding-right: 2%;
+	margin-left: 1%;
+}
+
+.phone {
+	width: 25%;
+}
+
+.google {
+	display: flex;
+	width: auto;
 	margin-left: 1%;
 	margin-top: 2%;
+	padding-right: 2%;
 }
 
 .contact-footer {

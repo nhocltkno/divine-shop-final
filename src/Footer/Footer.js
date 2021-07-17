@@ -29,14 +29,12 @@ const Footer = () => {
 				</div>
 				<div className="google">
 					<img src={google} alt="google" className="icon-footer" />
-					<p className="contact-details">
-						https://www.facebook.com/divineshop.vn/
-					</p>
+					<p className="contact-details">hotro@divineshop.vn/</p>
 				</div>
 				<div className="phone">
 					<img src={phone} alt="phone" className="icon-footer" />
 					<p className="contact-details">
-						https://www.facebook.com/divineshop.vn/
+						1900 633 305 - 096 4567 247
 					</p>
 				</div>
 			</div>

@@ -4,6 +4,7 @@ import BigPanel from "./BigPanel/BigPanel";
 import Middle from "./Middle/Middle";
 import List from "../List/List";
 import Question from "./Question/Question";
+import Footer from "../Footer/Footer";
 
 function Body() {
 	return (
@@ -13,6 +14,7 @@ function Body() {
 			<Middle />
 			<List />
 			<Question />
+			<Footer />
 		</div>
 	);
 }

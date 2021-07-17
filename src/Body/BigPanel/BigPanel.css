@@ -1,16 +1,16 @@
 .bigPanel {
-	width: 1050px;
-	height: 580px;
+	width: 87%;
+	height: 46%;
 	border-radius: 50px;
-	margin-left: 80px;
+	margin-left: 7%;
 }
 
 .carousel {
 	position: absolute;
-	top: 120px;
-	width: 1200px;
-	height: 580px;
-	left: 342px;
+	top: 4%;
+	width: 62%;
+	height: 80%;
+	left: 18%;
 }
 
 .logo2 {
@@ -18,87 +18,88 @@
 }
 
 .indicator {
-	margin-left: 8px;
+	margin-left: 0.4vw;
 }
 
 .indicator_1_2 {
-	margin-left: 8px !important;
+	margin-left: 0.4vw !important;
 	content: url("../../assets/icon_website/indicator_2.svg") !important;
 	border-radius: 0% !important;
 }
 
 .price {
 	position: absolute;
-	top: 500px;
-	left: 968px;
-	width: 132px;
-	height: 46px;
+	top: 80%;
+	left: 80%;
+	width: 12%;
+	height: 8%;
 	background: rgba(38, 38, 38, 0.5);
 	border-radius: 5px;
 }
 
 .discount {
 	color: #1bdd5d;
-	font-size: 18px;
+	font-size: 2vh;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20%;
 }
 
 .left {
 	position: absolute;
 	border-radius: 5px;
-	width: 47px;
-	height: 47px;
+	width: 36%;
+	height: 100%;
 	background: #4e4e4e;
 }
 
 .right {
 	position: absolute;
-	left: 50px;
+	left: 40%;
 }
 
 .right > h4 {
 	margin: 0px;
-	font-size: 18px;
+	font-size: 2vh;
 	font-weight: 700;
 	color: #ffffff;
-	margin-top: 2px;
+	margin-top: 1%;
 }
 
 .right > p {
 	margin: 0px;
-	margin-top: 2px;
-	font-size: 12px;
+	margin-top: 1%;
+	font-size: 1.3vh;
 	color: #c2c2c2;
-	padding-left: 24px;
+	padding-left: 17%;
 	text-decoration-line: line-through;
 }
 
 #game2 {
-	padding-left: 20px;
+	padding-left: 30%;
 }
 
 #the-witcher {
-	margin-left: 8px;
+	margin-left: 2%;
+	padding-left: 1%;
 }
 
 .ass-price {
 	position: absolute;
-	top: 520px;
-	left: 1000px;
-	width: 88px;
-	height: 35px;
+	top: 84%;
+	left: 85%;
+	width: 8%;
+	height: 6%;
 	background: rgba(0, 104, 171, 0.5);
 	border-radius: 5px;
 }
 
 .ass-price > h4 {
 	margin: 0px;
-	font-size: 16px;
+	font-size: 1.8vh;
 	font-weight: 700;
 	color: #ffffff;
-	margin-top: 6px;
-	margin-left: 2px;
+	margin-top: 7%;
+	margin-left: 3%;
 }
 
 @media only screen and (max-width: 414px) {
