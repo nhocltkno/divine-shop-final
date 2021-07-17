@@ -166,10 +166,12 @@
 	.dropdown {
 		background-color: transparent;
 		position: absolute;
-		left: 4px;
-		top: -34px;
+		top: -30px;
 	}
 
+	.menu {
+		z-index: 5;
+	}
 	.nav {
 		left: 0px;
 		top: 0px;
@@ -187,6 +189,16 @@
 		border-radius: 0px;
 		font-weight: 700;
 		color: #0068ab;
+		font-size: 12px;
+	}
+
+	.logo {
+		width: 30px;
+		height: 20px;
+	}
+
+	.logo2 {
+		margin-left: 15px;
 	}
 
 	.intro,
@@ -227,14 +239,14 @@
 
 	.menu {
 		position: fixed;
-		top: 71px;
 	}
 
 	.menu:hover > .dropdown > .text {
 		display: inline;
 		position: fixed;
-		top: 100px;
+		top: 95px;
 		color: #0068ab !important;
+		margin-left: 1.5%;
 	}
 
 	.logo2 {

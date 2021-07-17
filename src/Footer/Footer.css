@@ -70,7 +70,7 @@
 @media only screen and (max-width: 414px) {
 	.footer {
 		position: absolute;
-		top: 1480px;
+		top: 1420px;
 		left: 16px;
 		width: 396px;
 	}
@@ -95,5 +95,14 @@
 		display: flex;
 		margin-left: 7%;
 		margin-top: 1%;
+	}
+
+	.contact-details {
+		font-size: 11px;
+	}
+
+	.icon-footer {
+		width: 30px;
+		height: 40px;
 	}
 }

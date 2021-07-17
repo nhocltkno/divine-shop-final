@@ -212,6 +212,11 @@ img + img {
 		width: 190px;
 		height: 111px;
 	}
+
+	img + img {
+		margin-left: 2px;
+	}
+
 	.khuyenMai > .hide_km {
 		display: none;
 	}
