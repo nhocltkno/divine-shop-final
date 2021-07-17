@@ -45,7 +45,7 @@ img + img {
 
 .btn_khuyenmai > .text {
 	font-weight: 700;
-	font-size: 1.8vh;
+	font-size: 0.9vw;
 	color: #0068ab;
 	margin-left: 30%;
 	margin-top: 4%;
@@ -117,7 +117,7 @@ img + img {
 	margin: 0px;
 	color: #1bdd5d;
 	font-weight: 500;
-	font-size: 1.7vh;
+	font-size: 0.9vw;
 	padding-top: 2%;
 }
 
@@ -129,7 +129,7 @@ img + img {
 .right-price > p {
 	margin: 0px;
 	margin-left: 15%;
-	font-size: 1vh;
+	font-size: 0.5vw;
 	text-decoration-line: line-through;
 	color: #c2c2c2;
 	width: 120%;
@@ -137,7 +137,7 @@ img + img {
 
 .right-price > h4 {
 	margin: 0px;
-	font-size: 1.4vh;
+	font-size: 0.7vw;
 	color: #c3e8ff;
 	font-weight: 500;
 }
@@ -162,10 +162,10 @@ img + img {
 
 .btn_muanhieu > .text {
 	font-weight: 700;
-	font-size: 1.8vh;
+	font-size: 0.9vw;
 	color: #0068ab;
 	margin-left: 13%;
-	margin-top: 3%;
+	margin-top: 4%;
 }
 
 .btn_muanhieu:hover {

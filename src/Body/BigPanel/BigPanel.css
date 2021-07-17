@@ -39,7 +39,7 @@
 
 .discount {
 	color: #1bdd5d;
-	font-size: 2vh;
+	font-size: 1vw;
 	text-align: center;
 	margin-top: 20%;
 }
@@ -59,7 +59,7 @@
 
 .right > h4 {
 	margin: 0px;
-	font-size: 2vh;
+	font-size: 1vw;
 	font-weight: 700;
 	color: #ffffff;
 	margin-top: 1%;
@@ -68,9 +68,9 @@
 .right > p {
 	margin: 0px;
 	margin-top: 1%;
-	font-size: 1.3vh;
+	font-size: 0.6vw;
 	color: #c2c2c2;
-	padding-left: 17%;
+	padding-left: 30%;
 	text-decoration-line: line-through;
 }
 
@@ -95,7 +95,7 @@
 
 .ass-price > h4 {
 	margin: 0px;
-	font-size: 1.8vh;
+	font-size: 0.9vw;
 	font-weight: 700;
 	color: #ffffff;
 	margin-top: 7%;

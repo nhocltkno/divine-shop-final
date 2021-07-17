@@ -22,7 +22,7 @@
 	width: 27%;
 	left: 35%;
 	padding-left: 1%;
-	font-size: 2vh;
+	font-size: 1vw;
 	border: 0px;
 }
 
@@ -57,7 +57,7 @@
 .login > span {
 	position: absolute;
 	left: 33%;
-	font-size: 2vh;
+	font-size: 1vw;
 	position: absolute;
 	color: #0068ab;
 }
