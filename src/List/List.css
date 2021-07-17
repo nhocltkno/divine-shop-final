@@ -30,7 +30,7 @@
 	background-color: #7fa3ba !important;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 420px) {
 	.list {
 		position: absolute;
 		top: 760px;

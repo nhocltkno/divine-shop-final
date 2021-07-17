@@ -102,7 +102,7 @@
 	margin-left: 3%;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 420px) {
 	.bigPanel {
 		width: 385px;
 		height: 214px;
