@@ -1,6 +1,6 @@
 .khuyenMai {
 	position: absolute;
-	top: 26%;
+	top: 40vw;
 	left: 22%;
 }
 
@@ -15,7 +15,7 @@ img + img {
 
 .advertise_left {
 	position: fixed;
-	top: 12%;
+	top: 8vw;
 	width: 18%;
 	height: auto;
 	z-index: 2;
@@ -23,7 +23,7 @@ img + img {
 
 .advertise_right {
 	position: fixed;
-	top: 9%;
+	top: 6vw;
 	left: 80%;
 	width: 18%;
 	height: auto;
@@ -32,10 +32,10 @@ img + img {
 
 .btn_khuyenmai {
 	position: absolute;
-	width: 13%;
-	height: 1.5%;
+	width: 12vw;
+	height: 2.4vw;
 	left: 22%;
-	top: 33%;
+	top: 51vw;
 
 	background: #ffffff;
 	border: 1px solid #0068ab;
@@ -63,17 +63,26 @@ img + img {
 	margin-left: 0.4vw !important;
 	content: url("../../assets/icon_website/small_indicator_2.svg") !important;
 	border-radius: 0% !important;
+	margin-top: 2vw !important;
+	width: 2.2vw !important;
+}
+
+.indicator-img {
+	margin-top: 2vw;
+	margin-left: 0.4vw !important;
+	width: 2.2vw;
 }
 
 .div-carousel-1 {
 	position: absolute;
-	width: 63%;
+	width: 100%;
 	left: 19%;
-	top: 35%;
+	top: 54vw;
 }
 
 .carousel-1 {
-	height: 20vh;
+	height: 12vw;
+	width: 63vw;
 }
 
 #first {
@@ -149,10 +158,10 @@ img + img {
 
 .btn_muanhieu {
 	position: absolute;
-	width: 13%;
-	height: 1.6%;
+	width: 12vw;
+	height: 2.4vw;
 	left: 22%;
-	top: 43%;
+	top: 65vw;
 
 	background: #ffffff;
 	border: 1px solid #0068ab;
@@ -178,9 +187,9 @@ img + img {
 
 .div-carousel-2 {
 	position: absolute;
-	width: 63%;
+	width: 61%;
 	left: 19%;
-	top: 45%;
+	top: 69vw;
 }
 
 .btn_wrapper {
@@ -189,7 +198,8 @@ img + img {
 
 .next_icon,
 .prev_icon {
-	margin-bottom: 400%;
+	margin-bottom: 12vw;
+	width: 1.8vw;
 }
 
 @media only screen and (max-width: 420px) {

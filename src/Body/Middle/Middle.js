@@ -77,7 +77,7 @@ function Middle() {
 				<Carousel
 					navButtonsAlwaysVisible
 					IndicatorIcon={
-						<img src={indicator} alt="" className="indicator" />
+						<img src={indicator} alt="" className="indicator-img" />
 					}
 					PrevIcon={
 						<img src={prev} alt="icon" className="prev_icon" />
@@ -101,11 +101,6 @@ function Middle() {
 						className: "btn_wrapper",
 					}}
 					className="carousel-1"
-					indicatorIconButtonProps={{
-						style: {
-							marginTop: 40,
-						},
-					}}
 				>
 					<div className="item-list">
 						<div className="item-km" id="first">
@@ -470,7 +465,7 @@ function Middle() {
 				<Carousel
 					navButtonsAlwaysVisible
 					IndicatorIcon={
-						<img src={indicator} alt="" className="indicator" />
+						<img src={indicator} alt="" className="indicator-img" />
 					}
 					PrevIcon={
 						<img src={prev} alt="icon" className="prev_icon" />
@@ -489,15 +484,7 @@ function Middle() {
 						className: "indicator_2",
 					}}
 					className="carousel-1"
-					indicatorIconButtonProps={{
-						style: {
-							marginTop: 40,
-						},
-					}}
 					navButtonsWrapperProps={{
-						style: {
-							marginBottom: "10",
-						},
 						className: "btn_wrapper",
 					}}
 				>

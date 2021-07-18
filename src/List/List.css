@@ -1,14 +1,15 @@
 .list {
 	position: absolute;
-	top: 55%;
+	top: 84vw;
 	left: 22%;
 }
 
 .list_button {
 	position: absolute;
-	top: 54%;
+	top: 82vw;
 	left: 22%;
-	width: 40%;
+	width: 30vw;
+	height: 2vw;
 }
 
 .item_item {
@@ -18,7 +19,7 @@
 .list_button > button {
 	background: transparent;
 	border-radius: 10px 10px 0px 0px;
-	height: 100%;
+	height: 2vw;
 	margin-left: 1%;
 	border: none;
 	font-size: 0.8vw;

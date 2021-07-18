@@ -1,8 +1,8 @@
 .footer {
 	position: absolute;
-	top: 92%;
+	top: 142vw;
 	left: 22%;
-	width: 55%;
+	width: 52vw;
 }
 
 .details-footer {
@@ -13,14 +13,14 @@
 .logo-footer {
 	margin-top: 1%;
 	margin-bottom: 1%;
-	width: 22%;
-	height: 20%;
+	width: 12vw;
+	height: 3vw;
 }
 
 .content-footer {
 	margin: 0px;
 	float: right;
-	width: 78%;
+	width: 39vw;
 	margin-top: 2%;
 	margin-left: 1%;
 	color: #ffffff;

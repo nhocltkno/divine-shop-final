@@ -1,16 +1,21 @@
 .bigPanel {
-	width: 87%;
-	height: 46%;
-	border-radius: 50px;
+	width: 53vw;
+	height: 29vw;
+	border-radius: 3vw;
 	margin-left: 7%;
 }
 
 .carousel {
 	position: absolute;
-	top: 4%;
+	top: 5vw;
 	width: 62%;
 	height: 80%;
 	left: 18%;
+}
+
+.icon-big {
+	width: 2vw;
+	height: 2vw;
 }
 
 .logo2 {
@@ -19,22 +24,33 @@
 
 .indicator {
 	margin-left: 0.4vw;
+	width: 8vw;
 }
 
 .indicator_1_2 {
+	width: 8vw;
 	margin-left: 0.4vw !important;
 	content: url("../../assets/icon_website/indicator_2.svg") !important;
 	border-radius: 0% !important;
 }
 
+.Carousel-indicators-2 {
+	height: 2vw !important;
+	margin-top: 1vw !important;
+}
+
+.big-carousel {
+	height: 33vw;
+}
+
 .price {
 	position: absolute;
-	top: 80%;
+	top: 25vw;
 	left: 80%;
 	width: 12%;
-	height: 8%;
+	height: 2.5vw;
 	background: rgba(38, 38, 38, 0.5);
-	border-radius: 5px;
+	border-radius: 0.4vw;
 }
 
 .discount {
@@ -85,12 +101,12 @@
 
 .ass-price {
 	position: absolute;
-	top: 84%;
-	left: 85%;
+	top: 25.5vw;
+	left: 84%;
 	width: 8%;
-	height: 6%;
+	height: 2vw;
 	background: rgba(0, 104, 171, 0.5);
-	border-radius: 5px;
+	border-radius: 0.4vw;
 }
 
 .ass-price > h4 {

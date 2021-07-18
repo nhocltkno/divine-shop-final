@@ -13,11 +13,14 @@ function BigPanel() {
 		<div className="carousel">
 			<Carousel
 				navButtonsAlwaysVisible
+				indicators={{
+					className: "indicator-big-contain",
+				}}
 				IndicatorIcon={
 					<img src={indicator} alt="" className="indicator" />
 				}
-				PrevIcon={<img src={prev} alt="icon" />}
-				NextIcon={<img src={next} alt="icon" />}
+				PrevIcon={<img src={prev} alt="icon" className="icon-big" />}
+				NextIcon={<img src={next} alt="icon" className="icon-big" />}
 				navButtonsProps={{
 					style: {
 						margin: "0 0",
@@ -28,6 +31,7 @@ function BigPanel() {
 				activeIndicatorIconButtonProps={{
 					className: "indicator_1_2",
 				}}
+				className="big-carousel"
 			>
 				<div>
 					<img src={image_1} alt="test" className="bigPanel" />

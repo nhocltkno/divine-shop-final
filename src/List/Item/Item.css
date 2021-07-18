@@ -71,14 +71,14 @@
 
 .hover-rating {
 	margin: 0px;
-	margin-top: 4%;
+	margin-top: 1vw;
 	margin-left: 2%;
 	background-color: #236b99;
 	border-radius: 3px;
 	height: 4%;
 	color: #ffffff;
-	margin-bottom: 4%;
 	display: inline-block;
+	font-size: 0.8vw;
 }
 
 .category {
@@ -86,8 +86,10 @@
 	margin-left: 2%;
 	background-color: #236b99;
 	border-radius: 3px;
-	margin-bottom: 4%;
 	color: #ffffff;
+	font-size: 0.8vw;
+	margin-top: 0.6vw;
+	margin-bottom: 0.2vw;
 }
 
 .rating {
@@ -111,7 +113,8 @@
 }
 
 .hover-img {
-	width: 97%;
+	width: 13vw;
+	height: 8vw;
 	margin-left: 1%;
 }
 
