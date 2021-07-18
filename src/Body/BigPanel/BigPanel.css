@@ -134,6 +134,10 @@
 		left: 10px;
 	}
 
+	.big-carousel {
+		height: 214px;
+	}
+
 	.indicator {
 		display: none;
 	}
