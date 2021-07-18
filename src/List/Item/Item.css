@@ -71,7 +71,7 @@
 
 .hover-rating {
 	margin: 0px;
-	margin-top: 1vw;
+	margin-top: 1%;
 	margin-left: 2%;
 	background-color: #236b99;
 	border-radius: 3px;
@@ -114,13 +114,13 @@
 
 .hover-img {
 	width: 13vw;
-	height: 8vw;
+	height: 6vw;
 	margin-left: 1%;
 }
 
 .item-item {
-	width: 53vh;
-	height: 10vh;
+	width: 27vw;
+	height: 4vw;
 }
 
 @media only screen and (max-width: 420px) {

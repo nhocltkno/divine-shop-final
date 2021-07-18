@@ -197,7 +197,8 @@ img + img {
 
 .next_icon,
 .prev_icon {
-	margin-bottom: 12vw;
+	margin-top: 8vw;
+	margin-bottom: 19vw;
 	width: 1.8vw;
 }
 
@@ -257,24 +258,25 @@ img + img {
 
 	.div-carousel-1 {
 		position: absolute;
-		width: 396px;
-		left: 16px;
+		width: 414px;
+		left: 0px;
 		top: 390px;
 	}
 
 	.carousel-1 {
 		height: 150px;
-		width: 396px;
+		width: 404px;
 	}
 
 	.div-carousel-2 {
 		position: absolute;
 		width: 396px !important;
+		left: 0px !important;
 		height: 150px;
 	}
 
 	#first {
-		margin-left: 0px;
+		margin-left: 15px;
 	}
 
 	.item-img {
@@ -284,6 +286,8 @@ img + img {
 
 	.item-km {
 		margin-left: 16px;
+		width: 180px;
+		height: 100px;
 	}
 
 	.item-list {
