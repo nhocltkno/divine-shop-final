@@ -63,7 +63,7 @@
 
 .hover-title {
 	margin: 0px;
-	margin-top: 1%;
+	margin-top: 1vh;
 	font-size: 0.9vw;
 	color: #0068ab;
 	padding-left: 2%;
@@ -71,7 +71,7 @@
 
 .hover-rating {
 	margin: 0px;
-	margin-top: 1%;
+	margin-top: 1vh;
 	margin-left: 2%;
 	background-color: #236b99;
 	border-radius: 3px;
@@ -79,6 +79,7 @@
 	color: #ffffff;
 	display: inline-block;
 	font-size: 0.8vw;
+	margin-bottom: 0px;
 }
 
 .category {
@@ -88,8 +89,8 @@
 	border-radius: 3px;
 	color: #ffffff;
 	font-size: 0.8vw;
-	margin-top: 0.6vw;
-	margin-bottom: 0.2vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 .rating {
@@ -114,13 +115,13 @@
 
 .hover-img {
 	width: 13vw;
-	height: 6vw;
+	height: auto;
 	margin-left: 1%;
 }
 
 .item-item {
 	width: 27vw;
-	height: 4vw;
+	height: 5.2vw;
 }
 
 @media only screen and (max-width: 420px) {
