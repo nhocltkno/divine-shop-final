@@ -448,7 +448,7 @@ img + img {
 	.div-carousel-2 {
 		position: absolute;
 		left: 2vw !important;
-		top: 88vw;
+		top: 115vw;
 	}
 
 	.carousel-1 {
@@ -534,13 +534,6 @@ img + img {
 		color: #0068ab;
 		margin-left: 11%;
 		margin-top: 4.5%;
-	}
-
-	.div-carousel-2 {
-		position: absolute;
-		top: 69vw;
-		left: 3vw;
-		top: 115vw;
 	}
 
 	.indicator-img {
