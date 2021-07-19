@@ -265,7 +265,13 @@
 		position: fixed;
 		top: 95px;
 		color: #0068ab !important;
-		margin-left: 1.5%;
+		margin-left: 11%;
+	}
+
+	#logo-gt {
+		width: 5.5vw;
+		height: 6vw;
+		margin-left: 1%;
 	}
 
 	.logo2 {
