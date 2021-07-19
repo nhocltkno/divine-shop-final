@@ -193,6 +193,7 @@ img + img {
 
 .btn_wrapper {
 	display: flex;
+	width: 4vw;
 }
 
 .next_icon,
@@ -380,5 +381,185 @@ img + img {
 	.next_icon,
 	.prev_icon {
 		margin-bottom: 140px;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 420px) {
+	.advertise_left,
+	.advertise_right {
+		display: none;
+	}
+
+	.khuyenMai {
+		position: absolute;
+		top: 62vw;
+		left: 7vw;
+	}
+
+	.khuyenMai > img {
+		width: 29%;
+		height: 25%;
+	}
+
+	img + img {
+		margin-left: 2%;
+	}
+
+	.btn_khuyenmai {
+		position: absolute;
+		width: 21vw;
+		height: 4vw;
+		left: 7vw;
+		top: 83vw;
+
+		background: #ffffff;
+		border: 1px solid #0068ab;
+		box-sizing: border-box;
+		border-radius: 50px;
+	}
+
+	.btn_khuyenmai > .text {
+		font-weight: 700;
+		font-size: 1.6vw;
+		color: #0068ab;
+		margin-left: 28%;
+		margin-top: 4%;
+	}
+
+	.indicator_2 {
+		margin-left: 0.4vw !important;
+		content: url("../../assets/icon_website/small_indicator_2.svg") !important;
+		border-radius: 0% !important;
+		margin-top: 2vw !important;
+		width: 2.2vw !important;
+	}
+
+	.indicator-img {
+		margin-top: 2vw;
+		margin-left: 0.4vw !important;
+		width: 2.2vw;
+	}
+
+	.div-carousel-1 {
+		position: absolute;
+		left: 3vw;
+		top: 88vw;
+	}
+
+	.div-carousel-2 {
+		position: absolute;
+		left: 3vw !important;
+		top: 88vw;
+		width: 93%;
+	}
+
+	.div-carousel-2 > .carousel-1 {
+		width: 96vw;
+		left: 0.5vw;
+	}
+
+	.div-carousel-2 #first {
+		margin-left: 3.5vw;
+	}
+
+	.carousel-1 {
+		height: 16vw;
+		width: 95vw;
+	}
+
+	#first {
+		margin-left: 4vw;
+	}
+
+	.item-img {
+		width: 21vw;
+		height: 9.9vw;
+	}
+
+	.item-km {
+		margin-left: 1%;
+		height: 9.9vw;
+	}
+
+	.contain-price {
+		position: absolute;
+		width: 21vw;
+		height: 3vh;
+		background: #438bb9;
+	}
+
+	.discount-price {
+		position: absolute;
+		width: 45%;
+		height: 100%;
+		top: 2%;
+		left: 55%;
+
+		background: #525252;
+	}
+
+	.discount-1 {
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff;
+		margin: 0px;
+		color: #1bdd5d;
+		font-weight: 500;
+		font-size: 1.4vw;
+		padding-top: 0.5vw;
+		padding-bottom: 0.9vw;
+	}
+
+	.right-price > p {
+		margin: 0px;
+		margin-top: 3%;
+		margin-left: 15%;
+		font-size: 0.9vw;
+		text-decoration-line: line-through;
+		color: #c2c2c2;
+		width: 120%;
+	}
+
+	.right-price > h4 {
+		margin: 0px;
+		font-size: 1.2vw;
+		color: #c3e8ff;
+		font-weight: 500;
+	}
+
+	.btn_muanhieu {
+		position: absolute;
+		width: 21vw;
+		height: 4vw;
+		left: 7vw;
+		top: 110vw;
+
+		background: #ffffff;
+		border: 1px solid #0068ab;
+		box-sizing: border-box;
+		border-radius: 50px;
+	}
+
+	.btn_muanhieu > .text {
+		font-weight: 700;
+		font-size: 1.6vw;
+		color: #0068ab;
+		margin-left: 11%;
+		margin-top: 4.5%;
+	}
+
+	.div-carousel-2 {
+		position: absolute;
+		top: 69vw;
+		left: 3vw;
+		top: 115vw;
+	}
+
+	.indicator-img {
+		margin-top: 4vw !important;
+	}
+
+	.indicator_2 {
+		margin-top: 4vw !important;
 	}
 }

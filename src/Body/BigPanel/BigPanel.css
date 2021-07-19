@@ -223,3 +223,104 @@
 		margin-left: 8px;
 	}
 }
+
+@media only screen and (max-width: 768px) and (min-width: 420px) {
+	.bigPanel {
+		width: 83.5vw;
+		height: 46vw;
+		border-radius: 3vw;
+		margin-left: 4vw;
+	}
+
+	.carousel {
+		position: absolute;
+		top: 10vw;
+		width: 92%;
+		left: 3vw;
+		height: 50vw;
+	}
+
+	.big-carousel {
+		height: 50vw;
+	}
+
+	.price {
+		position: absolute;
+		top: 40vw;
+		left: 81%;
+		width: 12%;
+		height: 3.7vw;
+		background: rgba(38, 38, 38, 0.5);
+		border-radius: 0.4vw;
+	}
+
+	.icon-big {
+		width: 3vw;
+		height: 3vw;
+	}
+
+	.discount {
+		color: #1bdd5d;
+		font-size: 1.4vw;
+		text-align: center;
+		margin-top: 20%;
+	}
+
+	.left {
+		position: absolute;
+		border-radius: 5px;
+		width: 36%;
+		height: 100%;
+		background: #4e4e4e;
+	}
+
+	.right {
+		position: absolute;
+		left: 40%;
+	}
+
+	.right > h4 {
+		margin: 0px;
+		font-size: 1.4vw;
+		font-weight: 700;
+		color: #ffffff;
+		margin-top: 1%;
+	}
+
+	.right > p {
+		margin: 0px;
+		margin-top: 2%;
+		font-size: 1vw;
+		color: #c2c2c2;
+		padding-left: 12%;
+		text-decoration-line: line-through;
+	}
+
+	#game2 {
+		padding-left: 12%;
+	}
+
+	#the-witcher {
+		margin-left: 2%;
+		padding-left: 1%;
+	}
+
+	.ass-price {
+		position: absolute;
+		top: 40vw;
+		left: 84%;
+		width: 9%;
+		height: 3vw;
+		background: rgba(0, 104, 171, 0.5);
+		border-radius: 0.4vw;
+	}
+
+	.ass-price > h4 {
+		margin: 0px;
+		font-size: 1.4vw;
+		font-weight: 700;
+		color: #ffffff;
+		margin-top: 5%;
+		margin-left: 3.5%;
+	}
+}

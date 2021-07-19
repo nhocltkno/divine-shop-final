@@ -175,3 +175,40 @@
 		display: none;
 	}
 }
+
+@media only screen and (max-width: 768px) and (min-width: 420px) {
+	.item-item {
+		width: 54.5vw;
+		height: 8.5vw;
+	}
+
+	.hover-item {
+		display: none;
+	}
+
+	.title {
+		font-size: 1.6vw;
+		margin-top: 2%;
+	}
+
+	.des {
+		color: #e2e2e2;
+		font-size: 1.2vw;
+	}
+
+	.item-price {
+		position: absolute;
+		top: 35%;
+		left: 80%;
+		background-color: transparent;
+	}
+
+	.price-number {
+		margin: 0px;
+		text-align: center;
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 1.4vw;
+		margin-left: 45%;
+	}
+}

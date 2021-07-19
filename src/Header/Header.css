@@ -30,7 +30,7 @@
 	position: absolute;
 	width: 2vw;
 	left: 61%;
-	border-radius: 1vw;
+	border-radius: 50%;
 	background-color: #0068ab;
 	cursor: pointer;
 }
@@ -127,5 +127,46 @@
 
 	.login {
 		width: 26px;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 420px) {
+	.logo_title {
+		left: 7vw;
+		width: 16vw;
+		height: 16vw;
+	}
+
+	.header {
+		height: 8.5vw;
+	}
+
+	.search {
+		left: 26vw;
+		height: 3.2vw;
+		width: 43.4vw;
+		font-size: 1.8vw;
+	}
+
+	.search_icon {
+		left: 67vw;
+		width: 3vw;
+		height: 3vw;
+		border-radius: 1.5vw;
+	}
+
+	.login {
+		height: 2.5vw;
+		width: 11.7vw;
+		left: 78vw;
+	}
+
+	.login_icon {
+		width: 2.3vw;
+		margin-left: 2%;
+	}
+
+	.login_dn {
+		font-size: 1.4vw !important;
 	}
 }

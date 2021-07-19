@@ -108,3 +108,63 @@
 		height: 40px;
 	}
 }
+
+@media only screen and (max-width: 768px) and (min-width: 420px) {
+	.footer {
+		position: absolute;
+		top: 233vw;
+		left: 7vw;
+		width: 86vw;
+	}
+
+	.logo-footer {
+		margin-top: 1%;
+		margin-bottom: 1%;
+		width: 20vw;
+		height: 6vw;
+	}
+
+	.content-footer {
+		margin: 0px;
+		float: right;
+		width: 63vw;
+		margin-top: 2.3%;
+		margin-left: 1%;
+		color: #ffffff;
+		font-size: 1.3vw;
+	}
+
+	.facebook,
+	.phone {
+		width: auto;
+		display: flex;
+		margin-top: 2%;
+		padding-right: 2%;
+		margin-left: 1%;
+	}
+
+	.phone {
+		width: 25%;
+	}
+
+	.google {
+		display: flex;
+		width: auto;
+		margin-left: 1%;
+		margin-top: 2%;
+		padding-right: 2%;
+	}
+
+	.icon-footer {
+		width: 11%;
+	}
+
+	.contact-details {
+		font-size: 1.2vw;
+		padding-top: 3%;
+	}
+
+	.google > .icon-footer {
+		width: 18%;
+	}
+}

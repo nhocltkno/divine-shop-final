@@ -485,6 +485,9 @@ function Middle() {
 					}}
 					className="carousel-1"
 					navButtonsWrapperProps={{
+						style: {
+							marginBottom: "10",
+						},
 						className: "btn_wrapper",
 					}}
 				>
