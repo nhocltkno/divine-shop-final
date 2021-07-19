@@ -475,7 +475,6 @@ function Middle() {
 					}
 					navButtonsProps={{
 						style: {
-							margin: "0 0",
 							backgroundColor: "transparent",
 							padding: "0 0",
 						},
@@ -483,13 +482,13 @@ function Middle() {
 					activeIndicatorIconButtonProps={{
 						className: "indicator_2",
 					}}
-					className="carousel-1"
 					navButtonsWrapperProps={{
 						style: {
 							marginBottom: "10",
 						},
 						className: "btn_wrapper",
 					}}
+					className="carousel-1"
 				>
 					<div className="item-list">
 						<div className="item-km" id="first">

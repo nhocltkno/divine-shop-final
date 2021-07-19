@@ -79,6 +79,12 @@ img + img {
 	top: 54vw;
 }
 
+.div-carousel-2 {
+	position: absolute;
+	left: 19%;
+	top: 69vw;
+}
+
 .carousel-1 {
 	height: 12vw;
 	width: 63vw;
@@ -182,13 +188,6 @@ img + img {
 
 .btn_muanhieu:hover > .text {
 	color: #ffffff;
-}
-
-.div-carousel-2 {
-	position: absolute;
-	width: 61%;
-	left: 19%;
-	top: 69vw;
 }
 
 .btn_wrapper {
