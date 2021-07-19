@@ -75,23 +75,23 @@ img + img {
 
 .div-carousel-1 {
 	position: absolute;
-	left: 19%;
+	left: 18%;
 	top: 54vw;
 }
 
 .div-carousel-2 {
 	position: absolute;
-	left: 19%;
+	left: 18%;
 	top: 69vw;
 }
 
 .carousel-1 {
 	height: 12vw;
-	width: 63vw;
+	width: 64vw;
 }
 
 #first {
-	margin-left: 5%;
+	margin-left: 6%;
 }
 
 .item-img {
@@ -441,24 +441,14 @@ img + img {
 
 	.div-carousel-1 {
 		position: absolute;
-		left: 3vw;
+		left: 2vw;
 		top: 88vw;
 	}
 
 	.div-carousel-2 {
 		position: absolute;
-		left: 3vw !important;
+		left: 2vw !important;
 		top: 88vw;
-		width: 93%;
-	}
-
-	.div-carousel-2 > .carousel-1 {
-		width: 96vw;
-		left: 0.5vw;
-	}
-
-	.div-carousel-2 #first {
-		margin-left: 3.5vw;
 	}
 
 	.carousel-1 {
@@ -467,7 +457,7 @@ img + img {
 	}
 
 	#first {
-		margin-left: 4vw;
+		margin-left: 5vw;
 	}
 
 	.item-img {
